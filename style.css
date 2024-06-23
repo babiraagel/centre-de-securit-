@@ -28,3 +28,20 @@ nav ul {
     justify-content: space-between;
     align-items: center;
 }
+header {
+    min-width: 400px;
+    margin: 50px 10px 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;  
+}
+.container {
+    padding: 15px;
+    margin: 0 auto;
+}
+h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

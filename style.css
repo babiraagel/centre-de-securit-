@@ -82,3 +82,38 @@ h1 {
     align-items: center;
     margin: 0 auto;
 }
+
+.section-1 {
+    text-align: center;
+    padding: 60px 0;
+    
+}
+.form-grid {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 224px;
+    grid-template-areas: 
+    "input1 input2"
+    "tex tex";
+    gap: 10px;
+    width: 80%;
+    margin: 30px auto;
+    max-width: 600px;
+
+}
+
+ textarea {
+    grid-area: tex;
+    
+}
+textarea {
+    height: ;
+    resize: none;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    margin: 20px 0px 40px;
+    padding: 10px;
+}

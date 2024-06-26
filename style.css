@@ -40,6 +40,7 @@ header {
 }
 header p {
     margin-bottom: 20px;
+    
 }
 .container {
     padding: 15px;
@@ -55,8 +56,10 @@ h1 {
 .button {
     border: 1px solid rgba(182, 175, 175, 0.144);
     padding: 5px 15px;
+    background: transparent;
     border-radius: 50px;
     font-size: 1rem;
+    display: inline-block;
     text-transform: uppercase;
     font-weight: 400;
     cursor: pointer;
@@ -67,6 +70,13 @@ h1 {
 .button:hover {
     background: rgba(60, 60, 173, 0.842);
     color: whitesmoke;
+}
+.image-principale {
+    background: url(./img/cs.jpg) center/cover;
+}
+.image-principale img {
+   
+    height: 100%;
 }
 .section li {
     margin: 15px;
@@ -79,8 +89,10 @@ h1 {
 .text {
     width: 100%;
     display: block;
-    align-items: center;
     margin: 0 auto;
+}
+.text h2 {
+    text-align: center;
 }
 
 .section-1 {
@@ -116,4 +128,40 @@ input[type=text], textarea {
     width: 100%;
     margin: 20px 0px 40px;
     padding: 10px;
+}
+footer::before {
+    content: "";
+    height: 1px;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.055);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 33%;
+    
+}
+
+footer  {
+    
+    padding: 40px 0 70px;
+    position: relative;
+}
+footer a {
+    border: 1px solid #ccc;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: 0.2s;
 }
